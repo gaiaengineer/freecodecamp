@@ -16,17 +16,17 @@ The following user stories should have been fulfilled:
 - You should have a page title in an <code>h1</code> element with an <code>id</code> of title
 - You should have a short explanation in a <code>p</code> element with an <code>id</code> of description
 - You should have a <code>form</code> element with an <code>id</code> of survey-form
-- Inside the <code>form</code> element, you are required to enter your name in an input field that has an <code>id</code> of name and a type of text
-- Inside the <code>form</code> element, you are required to enter your email in an input field that has an <code>id</code> of email
+- Inside the <code>form</code> element, you are required to enter your name in an <code>input</code> field that has an <code>id</code> of name and a type of text
+- Inside the <code>form</code> element, you are required to enter your email in an <code>input</code> field that has an <code>id</code> of email
 - If you enter an email that is not formatted correctly, you will see an HTML5 validation error
-- Inside the <code>form</code>, you can enter a number in an input field that has an <code>id</code> of number
+- Inside the <code>form</code>, you can enter a number in an <code>input</code> field that has an <code>id</code> of number
 - The number input should not accept non-numbers, either by preventing you from typing them or by showing an HTML5 validation error (depending on your browser)
 - If you enter numbers outside the range of the number input, which are defined by the <code>min</code> and <code>max</code> attributes, you will see an HTML5 validation error
-- For the name, email, and number input fields, you can see corresponding label elements in the form, that describe the purpose of each field with the following ids: id="name-label", - id="email-label", and id="number-label"
-- For the name, email, and number input fields, you can see placeholder text that gives a description or instructions for each field
+- For the name, email, and number <code>input</code> fields, you can see corresponding label elements in the form, that describe the purpose of each field with the following ids: <code>id="name-label"</code>, <code>id="email-label"</code>, and <code>id="number-label"</code>
+- For the name, email, and number <code>input</code> fields, you can see placeholder text that gives a description or instructions for each field
 - Inside the <code>form</code> element, you should have a select dropdown element with an <code>id</code> of dropdown and at least two options to choose from
-- Inside the <code>form</code> element, you can select an option from a group of at least two radio buttons that are grouped using the name attribute
-- Inside the <code>form</code> element, you can select several fields from a series of checkboxes, each of which must have a value attribute
+- Inside the <code>form</code> element, you can select an option from a group of at least two radio buttons that are grouped using the <code>name</code> attribute
+- Inside the <code>form</code> element, you can select several fields from a series of checkboxes, each of which must have a <code>value</code> attribute
 - Inside the <code>form</code> element, you are presented with a textarea for additional comments
 - Inside the <code>form</code> element, you are presented with a button with <code>id</code> of submit to submit all the inputs
 
