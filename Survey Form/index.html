@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='styles.css'>
+  <title>Bookshop "Hardly Classical" Survey Form</title>
+</head>
+
+<body>
+  <header>
+    <h1 id='title' class="text-center">Bookshop "Hardly Classical" Survey Form</h1>
+    <p id='description' class="description text-center">Your esteemed perspective is warmly welcomed
+    </p>
+  </header>
+
+  <main>
+    <form id='survey-form'>
+      <div class="form-group">
+        <label id="name-label" for='name'>Name</label>
+        <input id='name' class="form-control" type='text' placeholder='Inscribe thy nomenclature into the designated field' required>
+      </div>
+
+      <div class="form-group">
+        <label id="email-label" for='email'>Email</label>
+        <input id='email' class="form-control" type='email' placeholder='Provide the electronic missive' required>
+      </div>
+
+      <div class="form-group">
+        <label id="number-label" for='number'>Age</label>
+        <input id='number' class="form-control" type='number' min='18' max='150' placeholder='Divulge the temporal epoch of your existence'>
+      </div>
+
+      <div class="form-group">
+        <label for='choose-drink'>Pray, dear interlocutor, which binding method dost thou purchase and hold in preference?</label>
+        <select id='dropdown' name='choose-binding' class="form-control">
+          <option disabled selected value>Opt for a solitary choice</option>
+          <option value='hardcover'>Case (hardcover) binding</option>
+          <option value='softcover'>Perfect (softcover) binding</option>
+          <option value='saddle'>Saddle stitch binding</option>
+          <option value='comb'>Comb binding</option>
+          <option value='thermal'>Thermal binding</option>
+        </select>
+      </div>
+
+      <fieldset id='radio-buttons' class="form-group">
+        <legend>Whence do you typically procure literary tomes for your erudition?</legend>
+        <label for='radio-independent'>
+          <input class="input-radio" type='radio' name='book-purchase' id='radio-independent' value="bar-stools">
+          Independent bookstores
+        </label>
+        <label for='radio-chain'>
+          <input class="input-radio" type='radio' name='book-purchase' id='radio-chain' value="radio-window">
+          Chain bookstores
+        </label>
+        <label for='radio-online'>
+          <input class="input-radio" type='radio' name='book-purchase' id='radio-online' value="radio-smoking">
+          Online
+        </label>
+      </fieldset>
+
+      <fieldset id='checkboxes' class="form-group">
+        <legend>What aspects of our bibliophilic emporium would you deem worthy of refinement?</legend>
+        <label for="checkbox-books-choice">
+          <input class="input-checkbox" type='checkbox' name='improvements' id='checkbox-book-selection' value='book-selection'>
+          Selection of books
+        </label>
+        <label for="checkbox-foreign-choice">
+          <input class="input-checkbox" type='checkbox' name='improvements' id='checkbox-foreign-books' value='foreign-books'>
+          Selection of books in foreign languages
+        </label>
+        <label for="checkbox-service-choice">
+          <input class="input-checkbox" type='checkbox' name='improvements' id='checkbox-speed'
+            value='speed'>Speed of service
+        </label>
+        <label for="checkbox-delivery-choice">
+          <input class="input-checkbox" type='checkbox' name='improvements' id='checkbox-delivery'
+            value='delivery'>Delivery options
+        </label>
+      </fieldset>
+
+      <div class="form-group">
+        <p>Do not hesitate to contribute supplementary recommendations, should your intellectual musings be so inclined!</p>
+        <textarea id="suggestions" name="suggestions" class="input-textarea" placeholder="Kindly inscribe your perspicacious suggestions within this designated expanse of intellectual contribution...."></textarea>
+      </div>
+
+      <button id='submit' type='submit' class="submit-button">Submit</button>
+
+    </form>
+  </main>
+</body>
+</html>
