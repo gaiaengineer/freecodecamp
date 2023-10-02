@@ -49,7 +49,7 @@ Background image for the project is provided by <a href="https://unsplash.com/@u
 
 ### Project description
 
-This is a simple tribute page meant to give information on a famous person. By the design of the <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">Responsive Web Design</a> course, the learner should construct a survey form that is functionally similar to the example provided <a href=" https://tribute-page.freecodecamp.rocks">here</a>. 
+This is a simple tribute page meant to give information on a famous person. By the design of the <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">Responsive Web Design</a> course, the learner should construct a survey form that is functionally similar to the example provided <a href="https://tribute-page.freecodecamp.rocks">here</a>. 
 The following user stories should have been fulfilled: 
 - Your tribute page should have a main element with a corresponding <code>id</code> of main, which contains all other elements
 - You should see an element with an <code>id</code> of title, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug")
