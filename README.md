@@ -7,6 +7,11 @@ Below are a selection of personal coding projects undertaken for the purpose of 
 
 👋🏻 Feel free to consult <a href="https://www.freecodecamp.org/olgaalexee">my freeCodeCamp profile</a> and <a href="https://www.linkedin.com/in/bookwormolga">LinkedIn page</a> to see my credentials and connect. 
 
+## 0 - Table of Contents
+
+[Survey Form]()
+[Tribute Page]()
+
 ## 1 - Survey Form
 
 ### Project description
@@ -39,7 +44,32 @@ The following user stories should have been fulfilled:
 
 Background image for the project is provided by <a href="https://unsplash.com/@ugur?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ugur Akdemir</a> on <a href="https://unsplash.com/photos/6VsP1les1U4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-### MIT License
+## 2 - Tribute Page
+
+### Project description
+
+This is a simple tribute page meant to give information on a famous person. By the design of the <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">Responsive Web Design</a> course, the learner should construct a survey form that is functionally similar to the example provided <a href=" https://tribute-page.freecodecamp.rocks">here</a>. 
+The following user stories should have been fulfilled: 
+- Your tribute page should have a main element with a corresponding <code>id</code> of main, which contains all other elements
+- You should see an element with an <code>id</code> of title, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug")
+- You should see either a <code>figure</code> or a <code>div</code> element with an <code>id</code> of img-div
+- Within the <code>#img-div</code> element, you should see an <code>img</code> element with a corresponding <code>id="image"</code>
+- Within the <code>#img-div</code> element, you should see an element with a corresponding <code>id="img-caption"</code> that contains textual content describing the image shown in <code>#img-div</code>
+- You should see an element with a corresponding <code>id="tribute-info"</code>, which contains textual content describing the subject of the tribute page
+- You should see an a element with a corresponding <code>id="tribute-link"</code>, which links to an outside site, that contains additional information about the subject of the tribute page. You must give your element an attribute of <code>target</code> and set it to <code>_blank</code> in order for your link to open in a new tab
+- Your <code>#image</code> should use <code>max-width</code> and <code>height</code> properties to resize responsively, relative to the width of its parent element, without exceeding its original size
+- Your <code>img</code> element should be centered within its parent element
+
+### Technologies
+
+- <a href="https://en.wikipedia.org/wiki/HTML">HTML 5</a>
+- <a href="https://en.wikipedia.org/wiki/CSS">CSS 3</a>
+
+### Credits
+
+The photo for the project is provided by <a href="https://www.screenslate.com/articles/umberto-eco-library-world">this website</a>.
+
+## MIT License
 
 Copyright (c) 2023 Olga Alexeeva
 
