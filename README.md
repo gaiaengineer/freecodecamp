@@ -12,6 +12,7 @@ Below are a selection of personal coding projects undertaken for the purpose of 
 - [1 - Survey Form](https://github.com/olgaalexee/freecodecamp#1---survey-form)
 - [2 - Tribute Page](https://github.com/olgaalexee/freecodecamp#2---tribute-page)
 - [3 - Documentation Page](https://github.com/olgaalexee/freecodecamp#3---documentation-page)
+- [4 - Product Page](https://github.com/olgaalexee/freecodecamp#4---product-page)
 - [License](https://github.com/olgaalexee/freecodecamp#mit-license)
 
 ## 1 - Survey Form
@@ -129,7 +130,7 @@ The following user stories should have been fulfilled:
 
 ### Credits
 
-The video and the image for the project are taken from <a href="hhttps://www.themerchantofvenice.com/en/">Merchant of Venice</a> promo materials.
+The video and the image for the project are taken from <a href="https://www.themerchantofvenice.com/en/">Merchant of Venice</a> promo materials.
 
 ## MIT License
 
