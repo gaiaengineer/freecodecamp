@@ -1,8 +1,8 @@
 :root {
-    --body-bg: #e9e7e0;
+    --body-bg: #ffffff;
     --body-text: #222;
-    --header-bg: #394451;
-    --header-a-underline: #4f9d85;
+    --header-bg: #002047;
+    --header-a-underline: #000000;
   }
   
   html {
