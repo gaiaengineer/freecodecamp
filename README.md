@@ -13,7 +13,7 @@ Below are a selection of personal coding projects undertaken for the purpose of 
 - [2 - Tribute Page](https://github.com/olgaalexee/freecodecamp#2---tribute-page)
 - [3 - Documentation Page](https://github.com/olgaalexee/freecodecamp#3---documentation-page)
 - [4 - Product Page](https://github.com/olgaalexee/freecodecamp#4---product-page)
-- [5 - Portfolio Page](https://github.com/olgaalexee/freecodecamp#5---portfolio-page)
+- [5 - Portfolio Page](https://github.com/olgaalexee/freecodecamp#5---portfolio-page) (attention, my real one is here www.olgaalexeeva.com) 
 - [License](https://github.com/olgaalexee/freecodecamp#mit-license)
 
 ## 1 - Survey Form
@@ -157,7 +157,7 @@ The following user stories should have been fulfilled:
 
 ### Credits
 
-All the texts are taken from my real portfolio: www.olgaalexeeva.com 
+All the texts are taken from my real portfolio: www.olgaalexeeva.com.
 GitHub icon is provided by <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel Buddha - Flaticon</a>. 
 
 ## MIT License
