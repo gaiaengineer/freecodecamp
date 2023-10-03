@@ -13,6 +13,7 @@ Below are a selection of personal coding projects undertaken for the purpose of 
 - [2 - Tribute Page](https://github.com/olgaalexee/freecodecamp#2---tribute-page)
 - [3 - Documentation Page](https://github.com/olgaalexee/freecodecamp#3---documentation-page)
 - [4 - Product Page](https://github.com/olgaalexee/freecodecamp#4---product-page)
+- [5 - Portfolio Page](https://github.com/olgaalexee/freecodecamp#5---portfolio-page): the real one is here <a href="www.olgaalexeeva.com">Olga's portfolio</a>
 - [License](https://github.com/olgaalexee/freecodecamp#mit-license)
 
 ## 1 - Survey Form
@@ -131,6 +132,33 @@ The following user stories should have been fulfilled:
 ### Credits
 
 The video and the image for the project are taken from <a href="https://www.themerchantofvenice.com/en/">Merchant of Venice</a> promo materials.
+
+## 5 - Portfolio Page
+
+### Project description
+This is a simple portfolio page meant to give information about me as an expert. Attention: this is not a real portfolio. My real one is here: <a href="www.olgaalexeeva.com">Olga's portfolio</a>. By the design of the <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">Responsive Web Design</a> course, the learner should construct a portfolio page that is functionally similar to the example provided <a href=" https://personal-portfolio.freecodecamp.rocks">here</a>. 
+The following user stories should have been fulfilled: 
+- Your portfolio should have a welcome section with an <code>id</code> of welcome-section
+- The welcome section should have an <code>h1</code> element that contains text
+- Your portfolio should have a projects section with an <code>id</code> of projects
+- The projects section should contain at least one element with a class of <code>project-tile</code> to hold a project
+- The projects section should contain at least one link to a project
+- Your portfolio should have a <code>navbar</code> with an <code>id</code> of navbar
+- The navbar should contain at least one link that you can click on to navigate to different sections of the page
+- Your portfolio should have a link with an <code>id</code> of profile-link, which opens your GitHub or freeCodeCamp profile in a new tab
+- Your portfolio should have at least one media query
+- The height of the welcome section should be equal to the height of the viewport
+- The navbar should always be at the top of the viewport
+
+### Technologies
+
+- <a href="https://en.wikipedia.org/wiki/HTML">HTML 5</a>
+- <a href="https://en.wikipedia.org/wiki/CSS">CSS 3</a>
+
+### Credits
+
+All the texts are taken from my real portfolio: <a href="www.olgaalexeeva.com">Olga's portfolio</a>. 
+GitHub icon is provided by <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel Buddha - Flaticon</a>. 
 
 ## MIT License
 
