@@ -11,7 +11,7 @@ Below are a selection of personal coding projects undertaken for the purpose of 
 
 - [1 - Survey Form](https://github.com/olgaalexee/freecodecamp#1---survey-form)
 - [2 - Tribute Page](https://github.com/olgaalexee/freecodecamp#2---tribute-page)
-- [3 - Documentation Page](https://github.com/olgaalexee/freecodecamp#2---tribute-page)
+- [3 - Documentation Page](https://github.com/olgaalexee/freecodecamp#3---documentation-page)
 - [License](https://github.com/olgaalexee/freecodecamp#mit-license)
 
 ## 1 - Survey Form
