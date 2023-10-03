@@ -11,6 +11,7 @@ Below are a selection of personal coding projects undertaken for the purpose of 
 
 - [1 - Survey Form](https://github.com/olgaalexee/freecodecamp#1---survey-form)
 - [2 - Tribute Page](https://github.com/olgaalexee/freecodecamp#2---tribute-page)
+- [3 - Documentation Page](https://github.com/olgaalexee/freecodecamp#2---tribute-page)
 - [License](https://github.com/olgaalexee/freecodecamp#mit-license)
 
 ## 1 - Survey Form
@@ -69,6 +70,36 @@ The following user stories should have been fulfilled:
 ### Credits
 
 The photo for the project is provided by <a href="https://www.screenslate.com/articles/umberto-eco-library-world">this website</a>.
+
+## 3 - Documentation Page
+
+### Project description
+This is a simple technical documentation page meant to give information on a certain syntax or functionality. By the design of the <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">Responsive Web Design</a> course, the learner should construct a technical documentation page that is functionally similar to the example provided <a href="https://technical-documentation-page.freecodecamp.rocks">here</a>. 
+The following user stories should have been fulfilled: 
+- You can see a <code>main</code> element with a corresponding <code>id="main-doc"</code>, which contains the page's main content (technical documentation)
+- Within the <code>#main-doc</code> element, you can see several section elements, each with a class of <code>main-section</code>. There should be a minimum of five
+- The first element within each <code>.main-section</code> should be a <code>header</code> element, which contains text that describes the topic of that section.
+- Each section element with the class of <code>main-section</code> should also have an <code>id</code> that corresponds with the text of each header contained within it. Any spaces should be replaced with underscores (e.g. The section that contains the header "JavaScript and Java" should have a corresponding <code>id="JavaScript_and_Java"</code>)
+- The <code>.main-section</code> elements should contain at least ten <code>p</code> elements total (not each)
+- The <code>.main-section</code> elements should contain at least five <code>code</code> elements total (not each)
+- The <code>.main-section</code> elements should contain at least five <code>li</code> items total (not each)
+- You can see a <code>nav</code> element with a corresponding <code>id="navbar"</code>
+- The <code>navbar</code> element should contain one header element which contains text that describes the topic of the technical documentation
+- Additionally, the <code>navbar</code> should contain <code>link (a)</code> elements with the class of <code>nav-link</code>. There should be one for every element with the class <code>main-section</code>
+- The <code>header</code> element in the <code>#navbar</code> must come before any <code>link (a)</code> elements in the navbar
+- Each element with the class of <code>nav-link</code> should contain text that corresponds to the header text within each section (e.g. if you have a "Hello world" section/header, your navbar should have an element which contains the text "Hello world")
+- When you click on a <code>navbar</code> element, the page should navigate to the corresponding section of the <code>#main-doc</code> element (e.g. If you click on a <code>.nav-link</code> element that contains the text "Hello world", the page navigates to a section element with that <code>id</code>, and contains the corresponding header)
+- On regular sized devices (laptops, desktops), the element with <code>id="navbar"</code> should be shown on the left side of the screen and should always be visible to the user
+- Your technical documentation should use at least one media query
+
+### Technologies
+
+- <a href="https://en.wikipedia.org/wiki/HTML">HTML 5</a>
+- <a href="https://en.wikipedia.org/wiki/CSS">CSS 3</a>
+
+### Credits
+
+The text for the project is provided by <a href="https://www.interviewbit.com/blog/python-commands/">this website</a>.
 
 ## MIT License
 

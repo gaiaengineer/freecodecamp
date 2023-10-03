@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Documentation Page</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Documentation Page and its contents">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Python Commands List</header>
+      <div class="nav-wrapper">
+        <ul>
+            <li><a class="nav-link" href="#pipinstall">pip install</a></li>
+            <li><a class="nav-link" href="#print">print</a></li>
+            <li><a class="nav-link" href="#type">type</a></li>
+            <li><a class="nav-link" href="#range">range</a></li>
+            <li><a class="nav-link" href="#round">round</a></li>
+            <li><a class="nav-link" href="#input">input</a></li>
+        </ul>
+        </div>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="pipinstall">
+            <header>pip install</header>
+            <article>
+                <p><code>pip</code> is a package manager which is written in Python language. It is used to install and manage software packages.</p>
+                <p><b>Syntax:</b> <code>pip install package-name</code></p>
+                <p>Notes:</p>
+                <ul>
+                    <li>The <code>pip install</code> command is used to install any software package from an online repository of public packages, called the Python Package Index</li>
+                    <li>To run this command in windows you need to open your Windows PowerShell and then use the following syntax to install any package.</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="print">
+            <header>print</header>
+            <article>
+                <p><code>print</code> command is used to print a message on the screen or other standard output device.</p>
+                <p><b>Syntax:</b> <code>print(object)</code></p>
+                <p>Notes:</p>
+                <ul>
+                    <li>The message can be a string or any other object</li>
+                    <li>The <code>print</code> command can be used to print any type of object like integer, string, list, tuple, etc.</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="type">
+            <header>type</header>
+            <article>
+                <p><code>type</code> command is used to check the type or class of an object.</p>
+                <p><b>Syntax:</b> <code>type(object)</code></p>
+            </article>
+        </section>
+        <section class="main-section" id="range">
+            <header>range</header>
+            <article>
+                <p><code>range</code> command is used to generate a sequence of integers starting from 0 by default to n where n is not included in the generated numbers. We use this command in for loops mostly.</p>
+                <p><b>Syntax:</b> <code>range(start, stop, step)</code></p>
+                <p>Notes: </p>
+                <ul>
+                    <li><code>start</code> refers to the starting of range (Optional; 0 by default)</li>
+                    <li><code>stop</code> refers to the number before which you want to stop (Mandatory)</li>
+                    <li><code>step</code> refers to the increment count (Optional; 1 by default)</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="round">
+            <header>round</header>
+            <article>
+                <p><code>round</code> command is used to round a number to a given precision in decimal digits. That means if you have so many digits after decimal in a float point number then you can use the round command to round off the specified number. You can mention how many digits you want after the decimal point.</p>
+                <p><b>Syntax:</b> <code>round(number, digits)</code></p>
+                <p>Notes: </p>
+                <ul>
+                    <li><code>number</code> refers to the floating-point number</li>
+                    <li><code>digits</code> refer to the count of digits you want after the decimal point. (Optional; By default 0)</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="input">
+            <header>input</header>
+            <article>
+                <p><code>input</code> command is used to take input from the user. The flow of the program will be stopped until the user has entered any value. Whatever the user enters it will be converted into a string by the input function. If you want to take an integer as input then you have to convert it explicitly.</p>
+                <p><b>Syntax:</b> <code>input(message)</code></p>
+                <p>Notes: </p>
+                <ul>
+                    <li><code>message</code> refers to the text you want to display to the user (Optional)</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+  </body>
+</html>
