@@ -157,8 +157,7 @@ The following user stories should have been fulfilled:
 
 ### Credits
 
-All the texts are taken from my real portfolio: www.olgaalexeeva.com.
-GitHub icon is provided by <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel Buddha - Flaticon</a>. 
+All the texts are taken from my real portfolio: www.olgaalexeeva.com. GitHub icon is provided by <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel Buddha - Flaticon</a>. 
 
 ## MIT License
 
