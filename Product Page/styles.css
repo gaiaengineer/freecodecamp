@@ -1,8 +1,8 @@
 :root {
     --body-bg: #e9e7e0;
     --body-text: #222;
-    --header-bg: #394451;
-    --header-a-underline: #4f9d85;
+    --header-bg: #7a0606;
+    --header-a-underline: #c95555;
   }
   
   html {
@@ -37,8 +37,9 @@
   }
   
   header img {
-      -webkit-filter:invert(100%);
       filter:progid:DXImageTransform.Microsoft.BasicImage(invert='1');
+      width: 5rem;
+      max-width: 100%;
   }
   
   header nav {
@@ -157,7 +158,7 @@
       align-items: stretch;
       text-align: center;
       margin: 10px 0px;
-      border: 1px solid #000;
+      border: 1px #000;
       border-radius: 3px;
   }
   
@@ -167,7 +168,7 @@
       font-size: 1em;
       font-weight: 900;
       text-transform: uppercase;
-      border: 3px black solid;
+      border: 3px rgb(0, 0, 0) solid;
       border-radius: 2px;
       background: transparent;
       cursor: pointer;
@@ -190,8 +191,9 @@
       border: 1px solid;
   }
   
-  .offer > ol > li:not(:last-child) {
+  .offer > ol > li {
       margin-bottom: 5px;
+      margin: 5px;
   }
   
   footer {

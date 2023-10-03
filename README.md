@@ -101,6 +101,36 @@ The following user stories should have been fulfilled:
 
 The text for the project is provided by <a href="https://www.interviewbit.com/blog/python-commands/">this website</a>.
 
+## 4 - Product Page
+
+### Project description
+This is a simple product page meant to give information on a certain set of products inside a brand. By the design of the <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">Responsive Web Design</a> course, the learner should construct a technical documentation page that is functionally similar to the example provided <a href="https://product-landing-page.freecodecamp.rocks">here</a>. 
+The following user stories should have been fulfilled: 
+- Your product landing page should have a header element with a corresponding <code>id="header"</code>
+- You can see an image within the header element with a corresponding <code>id="header-img"</code> (A logo would make a good image here)
+- Within the <code>#header</code> element, you can see a <code>nav</code> element with a corresponding id="nav-bar"
+- You can see at least three clickable elements inside the <code>nav</code> element, each with the class <code>nav-link</code>
+- When you click a <code>.nav-link</code> button in the <code>nav</code> element, you are taken to the corresponding section of the landing page
+- You can watch an embedded product video with <code>id="video"</code>
+- Your landing page has a form element with a corresponding <code>id="form"</code>
+- Within the form, there is an <code>input</code> field with <code>id="email"</code> where you can enter an email address
+- The <code>#email</code> input field should have placeholder text to let users know what the field is for
+- The <code>#email</code> input field uses HTML5 validation to confirm that the entered text is an email address
+- Within the form, there is a submit <code>input</code> with a corresponding <code>id="submit"</code>
+- When you click the <code>#submit</code> element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit)
+- The <code>navbar</code> should always be at the top of the <code>viewport</code>
+- Your product landing page should have at least one media query
+- Your product landing page should utilize CSS flexbox at least once
+
+### Technologies
+
+- <a href="https://en.wikipedia.org/wiki/HTML">HTML 5</a>
+- <a href="https://en.wikipedia.org/wiki/CSS">CSS 3</a>
+
+### Credits
+
+The video and the image for the project are taken from <a href="hhttps://www.themerchantofvenice.com/en/">Merchant of Venice</a> promo materials.
+
 ## MIT License
 
 Copyright (c) 2023 Olga Alexeeva
